@@ -1,0 +1,9 @@
+Environment:
+  python -m venv .venv
+  source .venv/bin/activate
+  pip install -r requirements.txt
+
+Development:
+  jupyter notebook notebooks/1173808_Assignment2.ipynb
+
+Hidden-test prediction instructions will be completed after the final model and preprocessing pipeline are selected.

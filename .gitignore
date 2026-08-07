@@ -1,0 +1,10 @@
+.DS_Store
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+data/*.csv
+models/*
+!models/.gitkeep
+submission/*
+!submission/.gitkeep
