@@ -12,6 +12,7 @@ Due: **21 August 2026, 5:00 p.m.**
 ├── models/        # Final .pt or .pth model (ignored by Git)
 ├── notebooks/
 │   └── 1173808_Assignment2.ipynb
+├── predict.py      # Hidden-test prediction command
 ├── submission/    # Local packaging workspace (ignored by Git)
 ├── requirements.txt
 ├── run.txt
@@ -31,4 +32,4 @@ The supplied baseline network is in the notebook. Keep all project paths relativ
 
 ## Submission
 
-Before submission, commit the executed notebook, final `.pt`/`.pth` model, `run.txt`, and `GenAI_Acknowledgement.txt`, then add the repository URL to `GitHub_URL.txt` for Akoraka.
+Before submission, commit the executed notebook, `models/1173808_Assignment2_final.pt`, `predict.py`, `run.txt`, and `GenAI_Acknowledgement.txt`. `GitHub_URL.txt` already contains the repository URL for Akoraka.

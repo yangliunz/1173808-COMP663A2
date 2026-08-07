@@ -6,5 +6,6 @@ __pycache__/
 data/*.csv
 models/*
 !models/.gitkeep
+!models/1173808_Assignment2_final.pt
 submission/*
 !submission/.gitkeep

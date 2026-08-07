@@ -1,9 +1,26 @@
-Environment:
+COMP663 Assignment 2 — Prediction Run Guide
+Student ID: 1173808
+
+Requirements:
+  Python 3.10+
   python -m venv .venv
   source .venv/bin/activate
   pip install -r requirements.txt
 
-Development:
+Run the executed notebook from the project root:
   jupyter notebook notebooks/1173808_Assignment2.ipynb
 
-Hidden-test prediction instructions will be completed after the final model and preprocessing pipeline are selected.
+Generate hidden-test predictions from the project root:
+  python predict.py data/hidden_test.csv data/predictions.csv models/1173808_Assignment2_final.pt
+
+The input CSV must contain these 14 feature columns:
+  Elevation, Aspect, Slope,
+  Horizontal_Distance_To_Hydrology, Vertical_Distance_To_Hydrology,
+  Horizontal_Distance_To_Roadways,
+  Hillshade_9am, Hillshade_Noon, Hillshade_3pm,
+  Horizontal_Distance_To_Fire_Points,
+  Wilderness_Area1, Wilderness_Area2, Wilderness_Area3, Wilderness_Area4
+
+Cover_Type is optional and ignored when present. The output is a one-column CSV
+named Cover_Type. No separate preprocessing.py is required because the submitted
+model stores the fitted scaler and feature order.
