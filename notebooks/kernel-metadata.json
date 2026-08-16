@@ -1,0 +1,16 @@
+{
+  "id": "yangliunz/comp663-a2-task-2-debug-notebook",
+  "title": "COMP663 A2 Task 2 Debug Notebook",
+  "code_file": "1173808_Assignment2.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": ["yangliunz/comp663-a2-forest-cover"],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

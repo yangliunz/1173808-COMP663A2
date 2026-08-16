@@ -47,7 +47,8 @@ def predict(input_path: Path, output_path: Path, model_path: Path) -> None:
     model.eval()
     with torch.no_grad():
         logits = model(torch.tensor(x.to_numpy(), dtype=torch.float32))
-        labels = logits.argmax(dim=1).numpy() + 1
+        probabilities = torch.softmax(logits, dim=1)
+        labels = probabilities.argmax(dim=1).numpy() + 1
 
     pd.DataFrame({"Cover_Type": labels}).to_csv(output_path, index=False)
     print(f"Wrote {len(labels)} predictions to {output_path}")
