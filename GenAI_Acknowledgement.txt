@@ -1,1 +1,1 @@
-Generative AI tools used: OpenAI Codex was used to help create the initial repository structure and documentation. All analysis, code, results, and interpretations will be reviewed and completed by the student.
+Generative AI tools used: OpenAI Codex was used to help create the initial repository structure, documentation, debug code, and correct grammar and spelling errors throughout the notebook. All analysis, code, results, and interpretations have been reviewed and completed by the student.
